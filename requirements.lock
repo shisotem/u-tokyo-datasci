@@ -13,6 +13,10 @@ appnope==0.1.4
     # via ipykernel
 asttokens==2.4.1
     # via stack-data
+certifi==2024.7.4
+    # via requests
+charset-normalizer==3.3.2
+    # via requests
 comm==0.2.2
     # via ipykernel
 contourpy==1.2.1
@@ -27,6 +31,8 @@ executing==2.0.1
     # via stack-data
 fonttools==4.53.1
     # via matplotlib
+idna==3.7
+    # via requests
 ipykernel==6.29.5
     # via u-tokyo-datasci
 ipython==8.26.0
@@ -93,6 +99,8 @@ pytz==2024.1
 pyzmq==26.1.0
     # via ipykernel
     # via jupyter-client
+requests==2.32.3
+    # via u-tokyo-datasci
 scikit-learn==1.5.1
     # via u-tokyo-datasci
 scipy==1.14.0
@@ -119,5 +127,7 @@ traitlets==5.14.3
     # via matplotlib-inline
 tzdata==2024.1
     # via pandas
+urllib3==2.2.2
+    # via requests
 wcwidth==0.2.13
     # via prompt-toolkit
