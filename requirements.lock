@@ -30,6 +30,8 @@ debugpy==1.8.5
     # via ipykernel
 decorator==5.1.1
     # via ipython
+et-xmlfile==1.1.0
+    # via openpyxl
 executing==2.0.1
     # via stack-data
 fastjsonschema==2.20.0
@@ -77,6 +79,8 @@ numpy==2.0.1
     # via scikit-learn
     # via scipy
     # via seaborn
+    # via u-tokyo-datasci
+openpyxl==3.1.5
     # via u-tokyo-datasci
 packaging==24.1
     # via ipykernel
